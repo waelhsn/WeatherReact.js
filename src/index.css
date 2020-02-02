@@ -111,3 +111,9 @@ main {
   background-color: rgb(196, 171, 166);
   opacity: 0.1;
 }
+#feels-like {
+  olor: #FFF;
+  font-size: 33px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
