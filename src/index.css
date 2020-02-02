@@ -101,3 +101,11 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+.developed-by {
+  color: rgb(138, 132, 132);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 2cm;
+  text-shadow: 3px;
+}
