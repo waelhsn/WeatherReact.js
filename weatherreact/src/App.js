@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          First step 
+          First step
         </a>
       </header>
     </div>
