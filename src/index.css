@@ -6,7 +6,8 @@
 
 
 body {
-  background-color: gray;
+  background-color: rgb(10, 9, 9);
+  opacity: 0.5;
 
 }
 
