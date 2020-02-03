@@ -20,8 +20,9 @@ body {
 }
 
 main {
-margin: 02em;
-}
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 25px;}
 
 .search-box {
 }
