@@ -9,6 +9,7 @@ body {
 }
 
 .app {
+  width: auto;
 }
 
 .app.warm {
