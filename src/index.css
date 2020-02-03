@@ -9,6 +9,8 @@
 body {
   background-color: gray;
   padding: 10em;
+  min-width: 520px;
+  min-height: 830px;
 }
 
 .app {
