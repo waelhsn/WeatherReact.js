@@ -42,27 +42,23 @@ main {
   box-shadow:
     inset -4px -4px 10px 4px #FFF,
     inset 4px 4px 10px 4px #C4C4C4;
-  color: none;
   font-size: 18px;
   transition: 0.2s ease-out;
 }
 .location-box .location {
-  color: rgb(110, 109, 109);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 32px;
-  text-align: center;
-  text-shadow:  inset -4px -4px 10px 4px #FFF,
-  inset 4px 4px 10px 4px #C4C4C4;
+  
 }
 
-.location-box .date {
+.location-box  {
   color:  black;
   font-size: 20px;
-  font-weight: 300;
-  font-style: italic;
+font-family: 'Courier New', Courier, monospace;
   text-align: center;
   text-shadow:  inset -4px -4px 10px 4px #FFF,
   inset 4px 4px 10px 4px #C4C4C4;
+  color: rgb(110, 109, 109);
+  font-size: 32px;
+ 
 }
 .weather-box {
   text-align: center;
