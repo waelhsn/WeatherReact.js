@@ -6,24 +6,27 @@
 
 
 body {
-  background-color: rgb(10, 9, 9);
-  opacity: 0.5;
-
+ font-family: 'montserrat', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background-color: #EEE;
 }
 
 .app {
-  background-image: url('./assets/cold-bg.jpg');
-  background-size: cover;
-  background-position: bottom;
-  transition: 0.4 ease;
+border-radius: 16px;
+padding: 32px;
+ width: 100%;
+ max-width: 480px;
+ box-shadow:
+  -2px -2px 6px 2px #FFF,
+  2px 2px 6px 2px #C4C4C4;
 }
 
-.app.warm {
-}
 
 main {
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
   padding: 25px;
 }
 
@@ -33,24 +36,98 @@ main {
 }
 
 .search-box .search-bar {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 16px;
+  border-radius: 16px;
+  
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 16px;
+  
+  box-shadow:
+    inset -4px -4px 10px 4px #FFF,
+    inset 4px 4px 10px 4px #C4C4C4;
+  
+  color: none;
+  font-size: 18px;
+  
+  transition: 0.2s ease-out;
  
 }
 
+.search-box .search-bar:focus {
+  background-color:none;
+}
+
 .location-box .location {
+  color: rgb(80, 67, 67);
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow:  inset -4px -4px 10px 4px #FFF,
+  inset 4px 4px 10px 4px #C4C4C4;
 }
 
 .location-box .date {
+  color:  black;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow:  inset -4px -4px 10px 4px #FFF,
+  inset 4px 4px 10px 4px #C4C4C4;
 }
 
 .weather-box {
+  text-align: center;
 }
 
 .weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: #EEE;
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: rgb(158, 155, 155);
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: inset -4px -4px 10px 4px #FFF,
+  inset 4px 4px 10px 4px #C4C4C4;
+  text-align: center;
+  box-shadow:  inset -4px -4px 10px 4px #FFF,
+  inset 4px 4px 10px 4px #C4C4C4;
 }
 
 .weather-box .weather {
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow:  inset -4px -4px 10px 4px #FFF,
+  inset 4px 4px 10px 4px #C4C4C4;
 }
 .developed-by {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 25px;
+  text-shadow:  inset -4px -4px 10px 4px #FFF,
+  inset 4px 4px 10px 4px #C4C4C4;
+  background-color: #EEE  ;
 }
 #feels-like {
+  color: rgb(39, 36, 36);
+  opacity: 0.3;
+  font-size: 33px;
+  font-weight: 700;
+  text-shadow:  inset -4px -4px 10px 4px #FFF,
+  inset 4px 4px 10px 4px #C4C4C4;
 }
