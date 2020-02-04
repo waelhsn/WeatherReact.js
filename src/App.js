@@ -8,12 +8,18 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
+
+
+
+
+
+
 function App() {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
 
   const search = whenEnter => {
-    if (whenEnter.key === "Enter") {
+    if (whenEnter.key === "Enter" ) {
       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
         .then(res => res.json())
         .then(result => {
@@ -36,6 +42,8 @@ function App() {
             value={query}
             onKeyPress={search}
           />
+
+
         </div>
         {(typeof weather.main != "undefined") ? (
         <div>
@@ -44,8 +52,8 @@ function App() {
           </div>
           <div className="weather-box">
             <div className="temp">
-              {Math.round(weather.main.temp)}°c
-              <div id="feels-like">Feels like: {Math.round(weather.main.feels_like)}°c</div>
+              {Math.round(weather.main.temp)}°
+              <div id="feels-like">Feels like: {Math.round(weather.main.feels_like)}°</div>
             </div>
             <div className="weather">{weather.weather[0].main}</div>
             
