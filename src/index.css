@@ -25,7 +25,7 @@ body {
  justify-content: center;
  align-items: center;
  min-height: 100vh;
- background-color: #EEE;
+ background-color: rgb(16, 49, 40);
 }
 .app {
 border-radius: 16px;
@@ -47,6 +47,7 @@ main {
 .search-box .search-bar {
   appearance: none;
   border: none;
+  color: rgb(201, 186, 186);
   outline: none;
   background: none;
   padding: 16px;
@@ -56,15 +57,15 @@ main {
   max-width: 320px;
   margin: 0 auto 16px;
   box-shadow:
-    inset -4px -4px 10px 4px #FFF,
-    inset 4px 4px 10px -3px #C4C4C4;
+    inset -4px -4px 10px 4px rgb(19, 54, 45),
+    inset 4px 4px 10px -3px rgb(11, 31, 26);
   font-size: 18px;
   transition: 0.2s ease-out;
 }
 .search-bar:focus {
   box-shadow:
-    inset -4px -4px 10px 4px #FFF,
-    inset 4px 4px 10px 4px #C4C4C4;
+    inset -4px -4px 10px 4px rgb(16, 53, 44),
+    inset 4px 4px 10px 4px rgb(15, 46, 38);
   font-size: 18px;
   transition: 0.2s ease-out;
 
@@ -78,8 +79,8 @@ main {
   font-size: 20px;
 font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  text-shadow:  inset -4px -4px 10px 4px #FFF,
-  inset 4px 4px 10px 4px #C4C4C4;
+  text-shadow:  inset -4px -4px 10px 4px rgb(19, 54, 45),
+  inset 4px 4px 10px 4px rgb(11, 31, 26);
   color: rgb(110, 109, 109);
   font-size: 32px;
  
@@ -91,25 +92,25 @@ font-family: 'Courier New', Courier, monospace;
   position: relative;
   display: inline-block;
   margin: 30px auto;
-  background-color: #EEE;
-  border-radius: 16px;
+  background-color:rgb(16, 49, 40);
+  border-radius: 36px;
   padding: 15px 25px;
   color: rgb(158, 155, 155);
   font-size: 102px;
   font-weight: 900;
-  text-shadow: inset -4px -4px 10px 4px #FFF,
-  inset 4px 4px 10px 4px #C4C4C4;
+  text-shadow: inset -4px -4px 10px 4px rgb(19, 54, 45) ,
+  inset 4px 4px 10px 4px rgb(12, 49, 40);
   text-align: center;
-  box-shadow:  inset -4px -4px 10px 4px #FFF,
-  inset 4px 4px 10px 4px #C4C4C4;
+  box-shadow:  inset -4px -4px 10px 4px rgb(19, 54, 45),
+  inset 4px 4px 10px 4px rgb(11, 31, 26);
 }
 
 .weather-box .weather {
   color: rgb(102, 98, 98);
   font-size: 48px;
   font-weight: 700;
-  text-shadow:  inset -4px -4px 10px 4px #FFF,
-  inset 4px 4px 10px 4px #C4C4C4;
+  text-shadow:  inset -4px -4px 10px 4px rgb(19, 54, 45),
+  inset 4px 4px 10px 4px rgb(41, 109, 91);
 }
 .developed-by {
   color: rgb(155, 151, 151);
@@ -117,15 +118,15 @@ font-family: 'Courier New', Courier, monospace;
   font-size: 8px;
   text-align: center;
   padding: 10px 20px;
-  text-shadow:  inset -4px -4px 10px 4px #FFF,
-  inset 4px 4px 10px 4px #C4C4C4;
-  background-color: #EEE  ;
+  text-shadow:  inset -4px -4px 10px 4px rgb(19, 54, 45),
+  inset 4px 4px 10px 4px rgb(41, 109, 91);
+  background-color: none;
 }
 #feels-like {
-  color: rgb(39, 36, 36);
+  color: rgb(95, 90, 90);
   opacity: 0.3;
   font-size: 33px;
   font-weight: 700;
-  text-shadow:  inset -4px -4px 10px 4px #FFF,
-  inset 4px 4px 10px 4px #C4C4C4;
+  text-shadow:  inset -4px -4px 10px 4px rgb(19, 54, 45),
+  inset 4px 4px 10px 4px rgb(41, 109, 91);
 }
